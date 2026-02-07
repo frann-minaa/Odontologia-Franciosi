@@ -33,6 +33,61 @@ body header .navbar .nav-item .nav-link {
   color: #f4f0ef;
   font-family: "Garet", serif;
 }
-body .Calendar {
+body main .Calendar {
   padding: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body header .navbar .LogoYTitulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body header .navbar .LogoYTitulo a .logo {
+    width: 80px;
+  }
+  body header .navbar .LogoYTitulo h1.TituloNav {
+    font-size: 18px;
+  }
+  body header .navbar ul.NavCompleto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  body header .navbar ul.NavCompleto .nav-item a.nav-link {
+    font-size: 16px;
+  }
+  body main .Calendar {
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  body header .navbar .LogoYTitulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body header .navbar .LogoYTitulo a .logo {
+    width: 100px;
+  }
+  body header .navbar .LogoYTitulo h1.TituloNav {
+    font-size: 22px;
+  }
+  body header .navbar ul.NavCompleto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+  body header .navbar ul.NavCompleto .nav-item a.nav-link {
+    font-size: 18px;
+  }
+  body main .Calendar {
+    padding: 10px;
+  }
 }/*# sourceMappingURL=styles.css.map */
