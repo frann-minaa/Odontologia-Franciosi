@@ -1,3 +1,38 @@
-header {
-  background-color: #ccc;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body header .navbar {
+  display: flex;
+  background-color: #d3b696;
+}
+body header .navbar .LogoYTitulo {
+  display: flex;
+  align-items: center;
+}
+body header .navbar .LogoYTitulo .logo {
+  padding: 10px 20px;
+  width: 100px;
+}
+body header .navbar .LogoYTitulo .TituloNav {
+  margin: 0;
+  font-family: "Garet", serif;
+  font-size: 25px;
+  color: #f4f0ef;
+}
+body header .navbar .NavCompleto {
+  padding-right: 50px;
+}
+body header .navbar .nav-item .nav-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: inherit;
+  color: #f4f0ef;
+  font-family: "Garet", serif;
+}
+body .Calendar {
+  padding: 20px;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font1: 'Inter', sans-serif;
+$font2: 'Garet', serif;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    header .navbar {
+        display: flex;
+        background-color: #d3b696;
+
+        .LogoYTitulo {
+            display: flex;
+            align-items: center;
+
+            .logo {
+                padding: 10px 20px;
+                width: 100px;
+            }
+
+            .TituloNav {
+                margin: 0;
+                font-family: $font2;
+                font-size: 25px;
+                color: #f4f0ef;
+            }
+        }
+
+        .NavCompleto {
+            padding-right: 50px;
+        }
+
+        .nav-item {
+            .nav-link {
+                text-decoration: none;
+                font-size: 20px;
+                color: inherit;
+                color: #f4f0ef;
+                font-family: $font2;
+            }
+        }
+    }
+
+    .Calendar {
+        padding: 20px;
+    }
 }
